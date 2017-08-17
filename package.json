@@ -1,0 +1,32 @@
+{
+  "name": "new_idioma_npm",
+  "version": "0.1.0",
+  "description": "Traductor a idioma Jairnol",
+  "main": "dist/src/jairnol.js",
+  "scripts": {
+    "build": "babel src/jairnol.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evitalires/js.npm.git"
+  },
+  "keywords": [
+    "Jair",
+    "idioma",
+    "nuevo",
+    "aprendiendo"
+  ],
+  "author": "Jair Escobar <evitalires@gmail.com> (https://twitter.com/Evitalires)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Evitalires/js.npm/issues"
+  },
+  "homepage": "https://github.com/Evitalires/js.npm#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
